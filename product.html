@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="favicon.png" type="image/icon">
+
+    <!-- owl-carousel CDN CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- start header  -->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1
+        bg-light">
+            <p class="font-rale font-size-12 text-black-50 m-0 fw-bold">
+                Jordan Calderon 430-985 Eleifend st.Duluth Washington 92611(427)930-5255
+            </p>
+            <div class="font-rale font-size-14">
+                <a href="#" class="px-3 border-right border-left text-dark text-decoration-none">Login</a>
+                <a href="#" class="px-3 border-right text-dark text-decoration-none">Wishlist(0)</a>
+            </div>
+        </div>
+
+        <!-- primary navigation  -->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Mobile Store</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">On-sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products <i class="fa-solid fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Categories<i class="fa-solid fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Coming Soon</a>
+                  </li>
+                </ul>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="#" class="py-2 rounded-pill color-primary-bg text-decoration-none">
+                        <span class="font-size-16 px-2 text-white"><i class="fa-solid fa-cart-plus"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- main section  -->
+    <main id="main-site">
+
+
+
+        <!-- top sales  -->
+        <section id="top-sale">
+          <div class="container py-5">
+            <h4 class="font-rubik font-size-20">Top Sales</h4>
+            <hr>
+            <!-- owl carousel -->
+            <div class="owl-carousel owl-theme">
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href="#"><img src="assets/products/1.png" alt="product" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Samsung Galaxy S6edge</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fa-solid fa-star "></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12 ">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href="#"><img src="assets/products/2.png" alt="product" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Readmy Note 7</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fa-solid fa-star "></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$125</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12 ">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href="#"><img src="assets/products/3.png" alt="product" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Xiaomi Redmi 12C</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fa-solid fa-star "></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$128</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12 ">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href="#"><img src="assets/products/4.png" alt="product" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Xiaomi Redmi Note 12 4G</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fa-solid fa-star "></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$143</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12 ">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href="#"><img src="assets/products/5.png" alt="product" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Xiaomi Redmi K50i</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fa-solid fa-star "></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$105</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12 ">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+    <!-- footer section  -->
+    <footer id="footer" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <h4 class="font-rubik font-size-20">Mobile Store</h4>
+            <p class="font-size-14 font-rale text-white-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem omnis commodi labore nesciunt totam laboriosam magnam fugiat temporibus. Aliquid, neque.</p>
+          </div>
+          <div class="col-lg-4 col-12">
+            <h4 class="font-rubik font-size-20">Newslatters</h4>
+            <form class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="E-mail*">
+              </div>
+              <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary mt-3">Subscribe</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-2 col-12">
+              <h4 class="font-rubik fontsize-29">Information</h4>
+              <div class="d-flex flex-column flex-wrap">
+                <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">About Us</a>
+                <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">Delivery Information</a>
+                <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">Privacy Policy</a>
+                <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">Terms & Condition</a>
+              </div>
+          </div>
+
+          <div class="col-lg-2 col-12">
+            <h4 class="font-rubik font-size 20">Account</h4>
+            <div class="d-flex flex-column flex-wrap">
+              <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">My Account</a>
+              <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">Order History</a>
+              <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">Wish List</a>
+              <a href="#" class="font-rale font-size-14 text-decoration-none text-white-50 pb-1">Newslatters</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright text-center bg-dark text-white py-2">
+      <p class="font-rale font-size-16">&copy; Copyright 2023 Designed By <a href="#" class="color-second text-decoration-none">Syed Nasir Hussain</a></p>
+    </div>
+       
+    <!-- bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <!-- jQuery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- owl carousel   -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- isotope plugin  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom JS  -->
+    <script src="index.js"></script>
+</body>
+</html>

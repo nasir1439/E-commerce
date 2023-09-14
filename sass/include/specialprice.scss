@@ -1,0 +1,57 @@
+// special price section template
+#special-price
+{
+    .grid .grid-item{
+        // margin-right: 1.2rem;
+        // margin-top: 1rem;
+        margin: 0.8rem;
+    }
+    .grid .grid-item:hover{
+        overflow: hidden;
+        transition: transform .5s ease;
+        transform: scale(1.1);
+        margin: 0.9rem;
+    }
+
+    .button-group{
+        display: flex;
+        justify-content: end;
+    }
+
+}
+#footer{
+    .col-lg-2 {
+        margin-left: 3rem;
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+    .col-lg-4 {
+        margin-left: 2rem;
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .col-lg-3 {
+    margin-left: -0.5rem;
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
+
+#blogs{
+
+    // .vo{
+    //     margin-left: 21.5rem;
+    // }
+    .item{
+        // margin-left: 1.2rem;
+        margin: 1.2rem;
+    }
+   
+    .item:hover{
+        overflow: hidden;
+        transition: transform .5s ease;
+        transform: scale(1.1);
+        // margin: 1.0rem;
+    }
+}
+
